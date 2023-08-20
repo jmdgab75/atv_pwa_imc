@@ -1,15 +1,12 @@
 {
-  "name": "primeira-pwa-app",
+  "name": "pwa",
   "version": "1.0.0",
-  "description": "calculadora para imc",
-  "main": "index.html",
+  "description": "pwa que calcula o imc",
+  "main": ": index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "serve"
+    "serve": "serve ."
   },
-  "author": "gabriel",
-  "license": "ISC",
-  "dependencies": {
-    "serve": "^14.2.0"
-  }
+  "author": "karen e gabriel",
+  "license": "ISC"
 }
