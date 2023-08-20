@@ -32,18 +32,23 @@
 
             <label for="peso">PESO:</label>
             <input type="number" id="peso" name="peso" placeholder="Digite seu peso"/>
+        
         <button id="calcular" type="button" onclick="calcular()">
           Calcular IMC
         </button>
 </div>
 
      <div class="resultados">
+      <div class="dados">
+        <h1>Dados:</h1>
+        <h1 id="nomeResultado"></h1>
+        <h1 id="idadeResultado"></h1>
         <h1 id="sexoResultado"></h1>
           <h1 id="alturaResultado"></h1>
-          <h1 id="pesoResultado"></h1>
-          Seu IMC é:
+          <h1 id="pesoResultado"></h1></div>
+          <h1>Seu IMC é:</h1>
           <h1 id="IMCresultado">0</h1>
-          <h1 id="tabela"></h1>
+          <h1 id="classificacao"></h1>
      </div>
 
     </div>

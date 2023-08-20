@@ -27,13 +27,18 @@ label {
     text-align: left;
 }
 input, select {
-    width: 100%;
+    width: 85%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-top: 5px;
     font-size: 14px;
 }
+
+input{
+    width: 80%;
+}
+
 button {
     width: 100%;
     padding: 10px;
@@ -51,4 +56,18 @@ button {
 h1#IMCresultado {
     font-size: 24px;
     margin-top: 20px;
+}
+
+.resultados h1{
+    font-size: 10px;
+}
+
+.dados{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 30px;
 }
