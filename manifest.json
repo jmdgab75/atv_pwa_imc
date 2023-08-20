@@ -3,17 +3,17 @@
     "short_name": "IMC",
     "icons": [
         {
-            "src": "images/logo_256x256.png",
+            "src": "images/logo256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "images/logo_512x512.png",
+            "src": "images/logo512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         },
         {
-            "src": "images/logo_196x196.png",
+            "src": "images/logo196x196.png",
             "sizes": "196x196",
             "type": "image/png",
             "purpose": "any maskable"
@@ -22,6 +22,6 @@
     "lang": "pt-BR",
     "start_url": "/index.html",
     "display": "standalone",
-    "background_color": "blue",
+    "background_color": "white",
     "theme_color": "dark"
 }
